@@ -17,7 +17,7 @@ int main() {
 
   scanf("%llu %llu%*c", &n, &m);
 
-  for(int i = 0; i < m; i++) {
+  for(unsigned long long int i = 0; i < m; i++) {
     scanf("%llu", &nextPos);
     if(nextPos >= pos) time += nextPos-pos;
     else {
