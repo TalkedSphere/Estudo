@@ -1,6 +1,6 @@
 /*
  * Autor: Frederico Santos Gonçalves
- * Data: 12/01/2026
+ * Data: 13/01/2026
  *
  * Plataforma: A2OJ
  * Problema: Queue at the School
