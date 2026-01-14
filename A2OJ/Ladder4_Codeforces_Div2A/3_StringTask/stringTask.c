@@ -11,9 +11,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-#define SUCESSO 0
-#define TAM_MAX 1000
-#define VOGAIS "aAeEiIoOuUyY"
+#define SUCESSO (0)
+#define TAM_MAX (1000)
+#define VOGAIS ("aAeEiIoOuUyY")
 
 int main() {
   char palavra[TAM_MAX];
