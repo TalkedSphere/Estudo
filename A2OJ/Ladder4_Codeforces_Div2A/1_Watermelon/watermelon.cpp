@@ -9,7 +9,7 @@
  */
 
 #include <iostream>
-#define SUCESSO 0
+#define SUCESSO (0)
 using namespace std;
 
 int main(void) {
