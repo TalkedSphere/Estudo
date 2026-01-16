@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#define SUCESSO 0
+#define SUCESSO (0)
 
 void util_removeQuebraLinhaFinal(char dados[]) {
     int tamanho = strlen(dados);
