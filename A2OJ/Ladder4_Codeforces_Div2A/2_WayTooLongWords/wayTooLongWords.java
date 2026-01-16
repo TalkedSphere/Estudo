@@ -21,9 +21,7 @@ public class wayTooLongWords {
     String[] palavras = new String[n];
 
     // Obtém e guarda as strings.
-    for(int i = 0; i < n; i++) {
-      palavras[i] = scanner.nextLine();
-    }
+    for(int i = 0; i < n; i++) palavras[i] = scanner.nextLine();
 
     // Printa os resultados.
     for(int i = 0; i < n; i++) {
