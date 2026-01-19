@@ -9,7 +9,7 @@
  */
 
 #include <bits/stdc++.h>
-#define SUCESSO 0
+#define SUCESSO (0)
 using namespace std;
 const string model = "hello";
 
