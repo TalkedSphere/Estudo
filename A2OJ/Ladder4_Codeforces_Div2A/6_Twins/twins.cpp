@@ -16,7 +16,7 @@ int n;
 vector<int> c;
 int ans = 1;
 
-int main(void) {
+int main() {
   cin >> n;
 
   for(int i = 0; i < n; i++) {
