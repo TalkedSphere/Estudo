@@ -1,5 +1,5 @@
 /*
- * Autor: Frederico S. Gonçalves e Bernardo Drummond
+ * Autor: Frederico Santos Gonçalves
  * Data: 19/01/2026
  *
  * Plataforma: A2OJ
