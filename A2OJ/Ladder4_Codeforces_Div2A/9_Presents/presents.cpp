@@ -5,7 +5,7 @@
  * Plataforma: A2OJ
  * Problema: Presents
  * Link: https://codeforces.com/problemset/problem/136/A
- * Dificuldade: 2
+ * Dificuldade: 1
  */
 
 #include <bits/stdc++.h>
