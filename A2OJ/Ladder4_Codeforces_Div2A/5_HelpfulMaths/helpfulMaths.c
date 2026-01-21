@@ -14,7 +14,7 @@
 #define SUCESSO (0)
 #define TAM_MAX (1000)
 
-void quickSort(int* array, int tam) {
+void bubbleSort(int* array, int tam) {
   for(int i = 0; i < tam; i++) {
     for(int j = 0; j < tam; j++) {
       if(array[j] <= array[j+1]) continue;
@@ -40,7 +40,7 @@ int main() {
       nums[i/2] = atoi(c);
     }
   }
-  quickSort(nums, (strlen(s)/2)+1);
+  bubbleSort(nums, (strlen(s)/2)+1);
 
   for(int i = 0; i < (strlen(s)/2)+1; i++) {
     if(i != 0) printf("+");
