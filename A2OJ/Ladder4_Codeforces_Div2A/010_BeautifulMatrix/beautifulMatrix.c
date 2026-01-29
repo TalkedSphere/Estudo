@@ -15,13 +15,12 @@
 #define INDEFINIDO (-1)
 
 int main() {
-  int matrix[TAM_MAX][TAM_MAX], quantMov = 0;
-
   int posX = INDEFINIDO, posY = INDEFINIDO;
   for(int i = 0; i < TAM_MAX; i++) {
     for(int j = 0; j < TAM_MAX; j++) {
-      scanf("%d%*c", &matrix[i][j]);
-      if(matrix[i][j] == 1) {
+      int v;
+      scanf("%d%*c", &v);
+      if(v == 1) {
         posX = i+1;
         posY = j+1;
         break;
@@ -30,6 +29,7 @@ int main() {
     if(posX != INDEFINIDO && posY != INDEFINIDO) break;
   }
 
+  int quantMov = 0;
   if(posX > OBJETIVO) quantMov += posX-OBJETIVO;
   else quantMov += OBJETIVO-posX;
   if(posY > OBJETIVO) quantMov += posY-OBJETIVO;
