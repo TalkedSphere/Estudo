@@ -9,7 +9,7 @@
  */
 
 #include <bits/stdc++.h>
-#define SUCESSO 0
+#define SUCESSO (0)
 #define pb push_back
 #define mp make_pair
 using namespace std;
